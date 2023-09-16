@@ -8,7 +8,7 @@ def make_rails(message, num_rails):
 
   for i in range(len(message)): 
     #length of the message counts the number of characters
-    #range of that starts the sequnce at zero
+    #range of that starts the sequence at zero
     #the for loop iterates the following for each number
     rail_num = 0 if period == 0 else i % period 
     #finds the rail number by finding
